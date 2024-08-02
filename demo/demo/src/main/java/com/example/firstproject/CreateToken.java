@@ -10,8 +10,8 @@ import java.io.IOException;
 
 public class CreateToken {
 
-    private static final String CLIENT_ID = "6a56b68afd0242b49a8c3a6673d39bae";
-    private static final String CLIENT_SECRET = "28f83e92698544fb8890a341d140093d";
+    private static final String CLIENT_ID = "";
+    private static final String CLIENT_SECRET = "";
 
     private static final SpotifyApi spotifyApi = new SpotifyApi.Builder().setClientId(CLIENT_ID).setClientSecret(CLIENT_SECRET).build();
 
